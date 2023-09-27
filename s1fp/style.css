@@ -1,8 +1,24 @@
-#egg {
+/* #head { 
     display: block;
-    width: 126px;
-    height: 180px;
+    width: 106px;
+    height: 150px;
+    top: 45%; 
     background-color: lightgrey;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     transform: rotate(180deg);
+  }
+  #neck{
+    border-bottom: 100px solid lightgrey;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+    text-align: center;
+  } */
+
+  /* HOW DO I MAKE IT ALWAYS STAY IN ONE PLACE NO MATTER THE SIZE OF THE WINDOW - myspace intros */
+
+  body {
+    background-image: url("1289087.jpg");
+    background-size: cover;
   }
