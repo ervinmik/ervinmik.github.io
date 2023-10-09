@@ -311,3 +311,39 @@
   #leftfrontleg{
     
   }
+
+#styledtable {
+  border-collapse: collapse;
+  transform: skew(40deg);
+  margin-top: 405px;
+  margin-left: 600px;
+  position: absolute;
+}
+#styledtable td {
+  border: 1px solid #2C2C2C;
+  min-width: 70px;
+  height: 70px;
+  text-align: center;
+  background-color: #6F6F6F;
+}
+#styledtable tr:nth-child(even) {
+  background-color: #6F6F6F;
+}
+#remotedimleft{
+  width: 100px;
+  height: 97px;
+  margin-top: 513px;
+  margin-left: 568px;
+  background-color: #2B2B2B;
+  position: absolute;
+  transform: rotate(70deg) skew(-70deg); 
+}
+#remotedimbottom{ 
+  width: 220px;
+  height: 93px;
+  background-color: #131313;
+  margin-top: 624px;
+  margin-left: 708px;
+  position: absolute;
+  transform: rotate(0deg) skew(20deg);
+}
