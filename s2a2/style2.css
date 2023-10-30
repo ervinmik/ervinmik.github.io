@@ -1,0 +1,481 @@
+body {
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  
+  /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans&family=Oswald:wght@500&family=Parisienne&family=Roboto+Mono:wght@300&family=Rokkitt:wght@200&display=swap'); */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@400;500;600&family=Oswald:wght@500&family=Parisienne&family=Roboto+Mono:wght@300&family=Rokkitt:wght@200&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Noto+Sans+Osmanya&family=Open+Sans:wght@400;500;600&family=Oswald:wght@500&family=Parisienne&family=Roboto+Mono:wght@300&family=Rokkitt:wght@200&display=swap');
+  
+  #iconwrapper {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    transform: scale(1);
+  }
+  
+  #ipod{
+    float: right;
+    position: relative;
+    width: 620px;
+    height: 955px;
+    background: #D8D8D7;
+    overflow: hidden;
+    border-radius: 55px;
+    transform: scale(.5);
+    box-shadow: inset 0 0 80px #7F7F7E;
+  }
+  
+  #dialbutton{
+    margin-top: 490px;
+    margin-left: 110px;
+    width: 400px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 0.01px;
+    border-color:#7F7F7E;
+  }
+  
+  #centercircle{
+    width: 160px;
+    height: 160px;
+    margin-top: 125px;
+    margin-left: 120px;
+    background: #D8D8D7;
+    border-style: solid;
+    border-width: 0.01px;
+    border-color:#959595;
+    border-radius: 200px;
+    box-shadow: inset 0 0 80px #BCBCBC;
+  }
+  
+  #Ncircle{
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    background: transparent;
+    margin-top:-240px;
+    margin-left: 158px;
+    font-family: 'Roboto+Mono', sans-serif;
+    font-size: 26px;
+    color:#BCBCBC;
+  }
+  
+  #iconwrapper2 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    transform: scale(1);
+  }
+
+  #Ecircle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    background: transparent;
+    top: 480px;
+    left: 1165px;
+  }
+  
+  #TriangleRightShape1{
+    border-top: 10px solid transparent;
+    border-left: 18px solid #BCBCBC;
+    border-bottom: 10px solid transparent;
+    margin-top: 0px;
+    margin-left: -27px;
+  }
+  #TriangleRightShape2{
+    border-top: 10px solid transparent;
+    border-left: 18px solid #BCBCBC;
+    border-bottom: 0px solid transparent;
+    margin-top: -20px;
+    margin-left: -10px;
+    position: absolute;
+  }
+  #RectangleShape1{
+    width: 4.5px;
+    height: 20px;
+    background: #BCBCBC;
+    margin-top: -20px;
+    margin-left: 7px;
+  }
+  
+  #Scircle{
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    background: transparent;
+    margin-top: 225px;
+    margin-left: 175px;
+  }
+  
+  #RectangleShape2{
+    width: 5px;
+    height: 23px;
+    background: #BCBCBC;
+    margin-top: 0px; 
+    margin-left: 35px; 
+  }
+  #RectangleShape3{
+    width: 5px;
+    height: 23px;
+    background: #BCBCBC;
+    margin-top: -22px;
+    margin-left: 22px; 
+  }
+  
+  #Wcircle{
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    background: transparent;
+    margin-top: -195px;
+    margin-left: 60px;
+  }
+  
+  #TriangleLeftShape1{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 18px solid #BCBCBC;
+    border-bottom: 10px solid transparent;
+  }
+  #TriangleLeftShape2{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 18px solid #BCBCBC;
+    border-bottom: 10px solid transparent;
+    margin-top: -20px;
+    margin-left: -17px;
+  }
+  #RectangleShape4{
+    width: 4.5px;
+    height: 20px;
+    background: #BCBCBC;
+    margin-top: -20px; 
+    margin-left: -20px;
+  }
+  
+  #screen{
+    width: 500px;
+    height: 360px;
+    background: transparent;
+    border-style: solid;
+    border-color: black;
+    border-width: 7px;
+    border-radius: 15px;
+    margin-top: -840px;
+    margin-left: 55px;
+    overflow: hidden;
+  }
+  
+  #headerbar{
+    width: 500px;
+    height: 30px;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 3px;
+    background-image: linear-gradient( #FFFFFF, #BBC1C6);
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #929DA5;
+    margin-left: -3px;
+    margin-top:-3px;
+  }
+  
+  #blueplay{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 18px solid #4CC5E1;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 8px;
+    right: 80px;
+  }
+  
+  #battery{
+    width: 43px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    right: 25px;
+    background-image: linear-gradient(#E3FBCC,#70AC60);
+    border-style:solid;
+    border-width:1.5px;
+    border-color: #AEBF9F;
+    border-radius:3px;
+  }
+  
+  #batterynub{
+    width: 1px;
+    height: 10px;
+    margin-top: 3px;
+    margin-left: 43px;
+    background-image: linear-gradient(#E3FBCC,#70AC60);
+    border-style:solid;
+    border-width:1.5px;
+    border-color: #AEBF9F;
+    border-radius:3px;
+  }
+  
+  #displaycontentwrapper {
+    width: 2500px;
+  }
+  .displaycontent {
+    position: relative;
+    width: 502px;
+    height: 360px;
+    float: left;
+  }
+  
+  #displaycontent1{
+    background-color: white;
+  }
+  
+  #displaycontent2 {
+    background-color: white;
+  }
+  
+  .albumcover {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    left: 60px;
+    top: 86px;
+  }
+  
+  #AtYourBest{
+    width: 160px;
+    height: 15px;
+    margin-top: 60px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    position: absolute;
+    font-style: bold;
+  }
+  
+  
+  #Aaliyah{
+    width: 150px;
+    height: 150px;
+    margin-top: 94px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    color: #67686A;
+  }
+  
+  #Arms{
+    width: 160px;
+    height: 15px;
+    margin-top: 60px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    position: absolute;
+    font-style: bold;
+  }
+  
+  
+  #Otis{
+    width: 150px;
+    height: 150px;
+    margin-top: 133px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    color: #67686A;
+  }
+  
+  #Check{
+    width: 160px;
+    height: 15px;
+    margin-top: 60px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    position: absolute;
+    font-style: bold;
+  }
+  
+  
+  #Beyonce{
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    color: #67686A;
+  }
+  
+  #Ya{
+    width: 160px;
+    height: 15px;
+    margin-top: 60px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    position: absolute;
+    font-style: bold;
+  }
+  
+  
+  #Nancy{
+    width: 150px;
+    height: 150px;
+    margin-top: 130px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    color: #67686A;
+  }
+  
+  #Sweet{
+    width: 160px;
+    height: 15px;
+    margin-top: 60px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    position: absolute;
+    font-style: bold;
+  }
+  
+  
+  #Anita{
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left:290px;
+    background-color: white;
+    font-size: 22px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    color: #67686A;
+  }
+  
+  #displaycontent3 {
+    background-color: white;
+  }
+  #displaycontent4 {
+    background-color: white;
+  }
+  #displaycontent5 {
+    background-color: white;
+  }
+  #displaycontent6 {
+    background-color: white;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  #nextbutton:hover ~ radioinput1 {
+  }
+  
+  .boxes {
+    width: 100px;
+    height: 100px;
+    display: none;
+  }
+  
+  #displaycontent1 {
+    background-color: white;
+    display: none;
+  }
+  
+  #displaycontent2 {
+    background-color: white;
+    display: none;
+  }
+  
+  #displaycontent3 {
+    background-color: white;
+    display: none;
+  }
+  
+  #displaycontent4 {
+    background-color: white;
+    display: none;
+  }
+  
+  #displaycontent5 {
+    background-color: white;
+    display: none;
+  }
+  
+  #radioinput1:checked ~ #iconwrapper > #ipod > #screen > #displaycontentwrapper > #displaycontent1 {
+    display: block;
+  }
+  
+  #radioinput2:checked ~ #iconwrapper > #ipod > #screen > #displaycontentwrapper > #displaycontent2 {
+    display: block;
+  }
+  #radioinput3:checked ~ #iconwrapper > #ipod > #screen > #displaycontentwrapper > #displaycontent3 {
+    display: block;
+  }
+  #radioinput4:checked ~ #iconwrapper > #ipod > #screen > #displaycontentwrapper > #displaycontent4 {
+    display: block;
+  }
+  #radioinput5:checked ~ #iconwrapper > #ipod > #screen > #displaycontentwrapper > #displaycontent5 {
+    display: block;
+  }
+  
+  #radioinput1:checked ~ #next2label,
+  #radioinput1:checked ~ #next3label,
+  #radioinput1:checked ~ #next4label,
+  #radioinput1:checked ~ #next5label
+  {
+    display: none;
+  }
+  #radioinput2:checked ~ #next1label,
+  #radioinput2:checked ~ #next3label,
+  #radioinput2:checked ~ #next4label,
+  #radioinput2:checked ~ #next5label
+  {
+    display: none;
+  }
+  #radioinput3:checked ~ #next1label,
+  #radioinput3:checked ~ #next2label,
+  #radioinput3:checked ~ #next4label,
+  #radioinput3:checked ~ #next5label
+  {
+    display: none;
+  }
+  #radioinput4:checked ~ #next1label,
+  #radioinput4:checked ~ #next2label,
+  #radioinput4:checked ~ #next3label,
+  #radioinput4:checked ~ #next5label
+  {
+    display: none;
+  }
+  #radioinput5:checked ~ #next1label,
+  #radioinput5:checked ~ #next2label,
+  #radioinput5:checked ~ #next3label,
+  #radioinput5:checked ~ #next4label
+  {
+    display: none;
+  }
+  
