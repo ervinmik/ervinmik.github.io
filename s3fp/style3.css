@@ -1,0 +1,122 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#iconwrapper1{
+  width: 100vw;
+  height: 100vh;
+/*   background-color: hotpink; */
+  position: relative;
+/*   display: flex; */
+}
+#iconwrapper2{
+  width: 400px;
+  height: 600px;
+/*   background-color: hotpink; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+/*   margin: auto; */
+}
+
+#lavalamptip{
+  background-color: transparent;
+	border-bottom: 80px solid lightgrey;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 20px;
+	width: 40px;
+  margin-left: 155px;
+}
+
+#lavalampglass{
+  background-color: transparent;
+	border-bottom: 250px solid pink;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent;
+	height: 0px;
+	width: 80px;
+  margin-left: 100px;
+  overflow: hidden;
+}
+
+#globwrapper {
+    pointer-events: none;
+  background-color: transparent;
+
+  height: 250px;
+  width: 192px;
+  top: 100px;
+  left: 100px;
+  clip-path: polygon(28.5% 0, 70.268% 0, 100% 100%, 0% 100%);
+
+  overflow: hidden;
+  position: absolute;
+}
+
+#glob1{
+  transition: 4s;
+  position: absolute;
+  top: -25px;
+  left: 45px;
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  border-radius: 50%
+}
+
+#glob2{
+  transition: 1s;
+  position: absolute;
+  top: -8px;
+  left: 55px;
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+  border-radius: 50%
+}
+
+#glob3{
+  transition: 2s;
+  position: absolute;
+  top: -17px;
+  left: 72px;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  border-radius: 50%
+}
+
+#lavalampglass:hover ~ #globwrapper > #glob1, #lavalampglass:hover ~ #globwrapper > #glob2,
+#lavalampglass:hover ~ #globwrapper > #glob3{
+  transition: 2s;
+  top: 206px;
+}
+
+#lavalampbase1{
+  background-color: transparent;
+	border-bottom: 100px solid #969595;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 300px;
+	width: 140px;
+  margin-top: 0px;
+  margin-left: 100px;
+  transform: rotate(180deg);
+}
+
+#lavalampbase2{
+  background-color: transparent;
+	border-bottom: 140px solid #b0b0b0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0px;
+	width: 140px;
+  margin-top: -300px;
+  margin-left: 100px;
+}
