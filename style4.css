@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+  margin: 0;
+  background-color: green;
+  border-style: dashed;
+  border-width: 1.5vw;
+  border-color: darkgreen;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#iconwrappertop{
+  width: 40vw;
+  background-color: green;
+  position: relative;
+  top: 1vw;
+  margin: 0 auto;
+}
+
+#iconwrappertop p{
+  padding: 0vw;
+  text-align: center;
+  font-size: 2vw;
+  font-family: 'Silkscreen', sans-serif;
+  color: green;
+}
+
+#iconwrapper{
+  width: 100%;
+  position: relative;
+}
+
+#iconwrapperlevelpath{
+  height: auto;
+  width: 40vw;
+  height: 154vw;
+  background-color: green;
+  position: relative;
+  margin: 0 auto;
+  top: 2vw;
+}
+
+#iconwrapperlevelinfo1{
+  width: 40vw;
+  background-color: darkgreen;
+  position: relative;
+  top: 1vw;
+  margin: 0 auto;
+  border-style: dashed;
+  border-width: 1vw;
+  border-color: #19450a;
+}
+
+#iconwrapperlevelinfo1 p{
+  padding: 3vw;
+  text-align: center;
+  font-size: 2vw;
+  font-family: 'Silkscreen', sans-serif;
+  color: white;
+}
+
+.levels{
+  text-align: center;
+  box-shadow: inset 0 0 1vw #87775f;
+  background-color: tan;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  position: absolute;
+  border-style: dashed;
+  border-width: 0.7vw;
+  border-color: #baa482;
+}
+
+.paths{
+  box-shadow: inset 0 0 1vw #87775f;
+  background-color: tan;
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  border-style: dashed;
+  border-width: 0.7vw;
+  border-color: #baa482;
+}
+
+.siteborders{
+  width: 5.5vw;
+  height: 5.5vw;
+  border-radius: 50%;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.sitecenter{
+  width: 4.5vw;
+  height: 4.5vw;
+  border-radius: 50%;
+  margin-top: 0.5vw;
+  margin-left: 0.5vw;
+  font-family: 'Silkscreen', sans-serif;
+  color: white;
+  font-size: 3vw;
+}
+
+#level1{
+  top: 4vw;
+  left: -3.5vw;
+}
+
+#siteborder1{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter1{
+  background-color: hotpink;
+  box-shadow: inset 0 0 1vw lightpink;
+}
+
+#path1{
+  top: 13vw;
+  transform: rotate(20deg);
+}
+
+#level2{
+  top: 18vw;
+  left: 35.4vw;
+}
+
+#siteborder2{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter2{
+  background-color: green;
+  box-shadow: inset 0 0 1vw lightgreen;
+}
+
+#path2{
+  top: 28vw;
+  transform: rotate(160deg);
+}
+
+#level3{
+  top: 33vw;
+  left: -3.5vw;
+}
+
+#siteborder3{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter3{
+  background-color: red;
+  box-shadow: inset 0 0 1vw hotpink;
+}
+
+#path3{
+  top: 43vw;
+  transform: rotate(20deg);
+}
+
+#level4{
+  top: 48vw;
+  left: 35.4vw;
+}
+
+#siteborder4{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter4{
+  background-color: blue;
+  box-shadow: inset 0 0 1vw lightblue;
+}
+
+#path4{
+  top: 58vw;
+  transform: rotate(160deg);
+}
+
+#level5{
+  top: 63vw;
+  left: -3.5vw;
+}
+
+#siteborder5{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter5{
+  background-color: orange;
+  box-shadow: inset 0 0 1vw tan;
+}
+
+#path5{
+  top: 73vw;
+  transform: rotate(20deg);
+}
+
+#level6{
+  top: 78vw;
+  left: 35.4vw;
+}
+
+#siteborder6{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter6{
+  background-color: purple;
+  box-shadow: inset 0 0 1vw violet;
+}
+
+#path6{
+  top: 88vw;
+  transform: rotate(160deg);
+}
+
+#level7{
+  top: 93vw;
+  left: -3.5vw;
+}
+
+#siteborder7{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter7{
+  background-color: yellow;
+  box-shadow: inset 0 0 1vw orange;
+}
+
+#path7{
+  top: 103vw;
+  transform: rotate(20deg);
+}
+
+#level8{
+  top: 108vw;
+  left: 35.4vw;
+}
+
+#siteborder8{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter8{
+  background-color: magenta;
+  box-shadow: inset 0 0 1vw red;
+}
+
+#path8{
+  top: 118vw;
+  transform: rotate(160deg);
+}
+
+#level9{
+  top: 123vw;
+  left: -3.5vw;
+}
+
+#siteborder9{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter9{
+  background-color: grey;
+  box-shadow: inset 0 0 1vw lightgrey;
+}
+
+#path9{
+  top: 133vw;
+  transform: rotate(20deg);
+}
+
+#level10{
+  top: 137.5vw;
+  left: 36.4vw;
+}
+
+#siteborder10{
+  background-color: white;
+  box-shadow: inset 0 0 1vw grey;
+  border-style: solid;
+  border-width: 0.3vw;
+}
+
+#sitecenter10{
+  background-color: black;
+  box-shadow: inset 0 0 1vw lightgrey;
+}
+
+#iconwrapperlevelinfo2{
+  width: 40vw;
+  background-color: darkgreen;
+  position: relative;
+  top: 0vw;
+  margin: 0 auto;
+  border-style: dashed;
+  border-width: 1vw;
+  border-color: #19450a;
+}
+
+#iconwrapperlevelinfo2 p{
+  padding: 3vw;
+  text-align: center;
+  font-size: 2vw;
+  font-family: 'Silkscreen', sans-serif;
+  color: white;
+}
+
+#iconwrapperbottom{
+  width: 40vw;
+  background-color: transparent;
+  position: relative;
+  top: 1vw;
+  margin: 0 auto;
+}
+
+#iconwrapperbottom p{
+  padding: 1vw;
+  text-align: center;
+  font-size: 2vw;
+  font-family: 'Silkscreen', sans-serif;
+  color: green;
+}
+
+.sitecenter:hover{
+  transition: 0.3s;
+  transform: scale(1.23);
+}
+
+@keyframes expandLine {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.road1 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, hotpink , green);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road1:hover {
+  animation: none; /* Disable the animation on hover */
+}
+
+
+.road2 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right,  green, red, red);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road2:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
+
+.road3 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, red, blue, blue);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road3:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
+.road4 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, blue, orange, orange, orange);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road4:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
+.road5 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, orange, purple, purple);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road5:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
+.road6 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, purple, yellow, yellow, yellow);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road6:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
+.road7 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, yellow, magenta, magenta);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road7:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
+.road8 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, magenta, grey, grey, grey);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road8:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
+.road9 {
+  box-shadow: inset 0 0 1vw #87775f;
+  background-image: linear-gradient(to right, grey, black, black);
+  position: absolute;
+  width: 40vw;
+  height: 3vw;
+  left: 0vw;
+  position: absolute;
+  background-size: 200% 100%;
+  animation: expandLine 1s ease forwards; /* Using the keyframe animation */
+}
+
+.road9:hover {
+  animation: none; /* Trigger the animation on hover */
+}
+
