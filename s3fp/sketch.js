@@ -2,7 +2,7 @@ function setup() {
   }
   
   function draw() {
-    background(255);
+    background(0);
     
   // let calls the div and then .style dictates the stylized changes which are color   
     let lavaliquid = select("#lavalampglass");
