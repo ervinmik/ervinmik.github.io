@@ -1,9 +1,8 @@
 function setup() {
-    createCanvas(400, 400);
   }
   
   function draw() {
-    background(220);
+    background(255);
     
   // let calls the div and then .style dictates the stylized changes which are color   
     let lavaliquid = select("#lavalampglass");
