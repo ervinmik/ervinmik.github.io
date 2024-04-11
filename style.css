@@ -1,8 +1,659 @@
-#egg {
-    display: block;
-    width: 126px;
-    height: 180px;
-    background-color: lightgrey;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#iconwrapper{
+  width: 100%;
+  position: absolute; 
+}
+
+body{
+  margin: 0; 
+  background-color: white;
+}
+
+#iconwrappername {
+  width: 47vw;
+  background-color: transparent;
+  position: absolute; 
+  top: -1vw;
+  left: 8vw;
+  margin: 0 auto;
+}
+
+#iconwrappername p{
+    transition: 0.5s;
+    padding: 3vw;
+  text-align: left;
+  font-size: 6vw;
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+  line-height: 0vw;
+}
+
+#iconwrappername p:hover{
+    letter-spacing: 1vw;
+    transition: 0.5s;
+    color: red;
+}
+
+/* #iconwrappername p1{
+  padding: 3vw;
+  text-align: left;
+  font-size: 4vw;
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+  line-height: 0vw;
+} */
+
+#iconwrapperweb {
+  width: 20vw;
+  background-color: transparent;
+  position: relative; 
+  top: 7vw;
+  left: 11.2vw;
+  margin: 0 ; 
+}
+
+#iconwrapperweb p{
+    transition: 0.5s;
+  padding: 0vw;
+  text-align: left;
+  font-size: 3vw;
+  font-family: 'Bebas Neue', sans-serif;
+  color: grey;
+}
+
+#iconwrapperproduct {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: 3.2vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapperproduct p{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: darkgrey;
+  }
+
+  #iconwrapperdigital {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: -0.5vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapperdigital p{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: lightgrey;
+  }
+
+  #iconwrapper01 {
+    width: 15vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper01 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper01 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper01 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper02 {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0vw;
+  }
+  
+  #iconwrapper02 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper02 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper02 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper03 {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0vw ;
+  }
+  
+  #iconwrapper03 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper03 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper03 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper04 {
+    width: 15vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper04 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper04 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper04 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper05 {
+    width: 15vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper05 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper05 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper05 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper06 {
+    width: 15vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper06 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper06 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper06 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper07 {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper07 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper07 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper07 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapperresume {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+#iconwrapperresume p{
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+#iconwrapperresume p:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapperabout {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: -6.6vw;
+    left: 24.2vw;
+    margin: 0 ;
+  }
+  
+#iconwrapperabout p{
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+#iconwrapperabout p:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrappercontact {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: -13.3vw;
+    left: 35.2vw;
+    margin: 0 ;
+  }
+  
+#iconwrappercontact p{
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+#iconwrappercontact p:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #artpreview {
+    background-color: transparent;
+    position: absolute; 
+    top: 0vw;
+    left: 11vw;
+    margin: 370 auto;
+  }
+
+  #iconwrapper2{
+    background-color: transparent;
+    position: absolute;
+    margin: 0 auto;
+  }
+  
+  #lavalamptip{
+    background-color: transparent;
+      border-bottom: 80px solid lightgrey;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      height: 20px;
+      width: 40px;
+    margin-left: 155px;
+  }
+  
+  #lavalampglass{
+    background-color: transparent;
+      border-bottom: 250px solid blue;
+      border-left: 55px solid transparent;
+      border-right: 55px solid transparent;
+      height: 0px;
+      width: 80px;
+    margin-left: 100.5px;
+    overflow: hidden;
+  }
+  
+  #globwrapper {
+      pointer-events: none;
+    background-color: transparent;
+  
+    height: 250px;
+    width: 192px;
+    top: 100px;
+    left: 100px;
+    clip-path: polygon(28.5% 0, 70.6% 0, 99.5% 100%, 0% 100%);
+  
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  #glob1{
+    transition: 3.5s;
+    position: absolute;
+    top: -25px;
+    left: 45px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%
+  }
+  
+  #glob2{
+    transition: 2s;
+    position: absolute;
+    top: -8px;
+    left: 55px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%
+  }
+  
+  #glob3{
+    transition: 3s;
+    position: absolute;
+    top: -17px;
+    left: 72px;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%
+  }
+  
+  #lavalampglass:hover ~ #globwrapper > #glob1 {
+    transition: 2s;
+    width: 200px;
+    height: 200px;
+    top: 170px;
+    left: -20px
+  }
+   
+  #lavalampglass:hover ~ #globwrapper > #glob2 {
+    transition: 2s;
+    width: 40px;
+    height: 40px;
+    top: 206px;
+  }
+
+  #lavalampglass:hover ~ #globwrapper > #glob3{
+    transition: 2s;
+    width: 140px;
+    height: 140px;
+    top: 190px;
+  }
+
+
+  #lavalampbase1{
+    background-color: transparent;
+      border-bottom: 100px solid #969595;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 300px;
+      width: 140px;
+    margin-top: 0px;
+    margin-left: 100px;
     transform: rotate(180deg);
   }
+  
+  #lavalampbase2{
+    background-color: transparent;
+      border-bottom: 140px solid #b0b0b0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0px;
+      width: 140px;
+    margin-top: -300px;
+    margin-left: 100px;
+  }
+
+
+
+  #iconwrapper1{
+    width: 100vw;
+    
+  /*   background-color: hotpink; */
+    position: relative;
+  /*   display: flex; */
+  }
+  #iconwrapper2{
+  /*   background-color: hotpink; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  /*   margin: auto; */
+  }
+  
+  /* #lavalamptip{
+    background-color: transparent;
+      border-bottom: 14vw solid lightgrey;
+      border-left: 3.5vw solid transparent;
+      border-right: 3.5vw solid transparent;
+      height: 3.5vw;
+      width: 7vw;
+    margin-left: 27.125vw;
+  }
+  
+  #lavalampglass{
+    background-color: transparent;
+      border-bottom: 43.75vw solid pink;
+      border-left: 9.6249vw solid transparent;
+      border-right: 9.6249vw solid transparent;
+      height: 0vw;
+      width: 14vw;
+    margin-left: 17.5vw;
+    overflow: hidden;
+  }
+  
+  #globwrapper {
+      pointer-events: none;
+    background-color: transparent;
+  
+    height: 43.75vw;
+    width: 33.6vw;
+    top: 17.5vw;
+    left: 17.5vw;
+    clip-path: polygon(28.5% 0, 70.268% 0, 100% 100%, 0% 100%);
+  
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  #glob1{
+    transition: 4s;
+    position: absolute;
+    top: -4.38vw;
+    left: 8vw;
+    width: 17.5vw;
+    height: 17.5vw;
+    background-color: hotpink;
+    border-radius: 50%
+  }
+  
+  #glob2{
+    transition: 1s;
+    position: absolute;
+    top: -1.4vw;
+    left: 9.6249vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    background-color: pink;
+    border-radius: 50%
+  }
+  
+  #glob3{
+    transition: 2s;
+    position: absolute;
+    top: -2.975vw;
+    left: 12.6vw;
+    width: 12.25vw;
+    height: 12.25vw;
+    background-color: red;
+    border-radius: 50%
+  }
+  
+  #lavalampglass:hover ~ #globwrapper > #glob1, 
+  #lavalampglass:hover ~ #globwrapper > #glob2,
+  #lavalampglass:hover ~ #globwrapper > #glob3{
+    transition: 2s;
+    top: 36.05vw;
+  }
+  
+  #lavalampbase1{
+    background-color: transparent;
+      border-bottom: 17.5vw solid #969595;
+      border-left: 4.375vw solid transparent;
+      border-right: 4.375vw solid transparent;
+      height: 52.5vw;
+      width: 24.5vw;
+    margin-top: vw;
+    margin-left: 17.5vw;
+    transform: rotate(180deg);
+  }
+  
+  #lavalampbase2{
+    background-color: transparent;
+      border-bottom: 24.5vw solid #b0b0b0;
+      border-left: 4.375vw solid transparent;
+      border-right: 4.375vw solid transparent;
+      height: 0vw;
+      width: 24.5vw;
+    margin-top: -52.5vw;
+    margin-left: 17.5vw;
+  } */
