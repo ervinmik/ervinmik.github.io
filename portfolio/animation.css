@@ -145,7 +145,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vw; /* Make the container full height of the viewport */
+  height: 50vw; /* Make the container full height of the viewport */
 }
 
 .video {
