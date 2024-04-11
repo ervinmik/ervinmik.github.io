@@ -10,6 +10,41 @@ body{
   background-color: white;
 }
 
+#wrapper {
+  color: yellow;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-weight: bold;
+  -webkit-text-stroke-width: .01vw;
+  -webkit-text-stroke-color: black;
+  letter-spacing: .5vw;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  font-size: 2vw;
+}
+
+#marquee1 {
+  width: 10000vw;
+  position: relative;
+  animation: lefttextscroll infinite 60s linear;
+}
+
+#marquee1:hover {
+  animation-play-state: paused;
+  color: black;
+}
+
+@keyframes lefttextscroll {
+  from{left: 0vw;}
+  to{left: -434.5vw}
+}
+@keyframes righttextscroll {
+  from{left: -434.5vw;}
+  to{left: 0;}
+}
+
+
+
 #iconwrappername {
   width: 47vw;
   background-color: transparent;
