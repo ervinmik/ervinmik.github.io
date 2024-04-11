@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#iconwrapper{
+  width: 100%;
+  position: absolute; 
+}
+
+body{
+  margin: 0; 
+  background-color: white;
+}
+
+#iconwrappername {
+  width: 47vw;
+  background-color: transparent;
+  position: absolute; 
+  top: -1vw;
+  left: 8vw;
+  margin: 0 auto;
+}
+
+#iconwrappername p{
+    transition: 0.5s;
+    padding: 3vw;
+  text-align: left;
+  font-size: 6vw;
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+  line-height: 0vw;
+}
+
+#iconwrappername p:hover{
+    letter-spacing: 1vw;
+    transition: 0.5s;
+    color: red;
+}
+
+/* #iconwrappername p1{
+  padding: 3vw;
+  text-align: left;
+  font-size: 4vw;
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+  line-height: 0vw;
+} */
+
+#iconwrapperweb {
+  width: 20vw;
+  background-color: transparent;
+  position: relative; 
+  top: 7vw;
+  left: 11.2vw;
+  margin: 0 ; 
+}
+
+#iconwrapperweb p{
+    transition: 0.5s;
+  padding: 0vw;
+  text-align: left;
+  font-size: 3vw;
+  font-family: 'Bebas Neue', sans-serif;
+  color: grey;
+}
+
+#iconwrapperproduct {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: 3.2vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapperproduct p{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: darkgrey;
+  }
+
+  #iconwrapperdigital {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: -0.5vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapperdigital p{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: lightgrey;
+  }
+
+  #iconwrapper01 {
+    width: 80vw;
+    background-color: transparent;
+    position: relative; 
+    top: 0vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper01 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper01 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper01 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper02 {
+    width: 80vw;
+    background-color: transparent;
+    position: relative; 
+    top: 1vw;
+    left: 11.2vw;
+    margin: 0vw;
+  }
+  
+  #iconwrapper02 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper02 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper02 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper03 {
+    width: 30vw;
+    background-color: transparent;
+    position: relative; 
+    top: 2vw;
+    left: 11.2vw;
+    margin: 0vw ;
+  }
+  
+  #iconwrapper03 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper03 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper03 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper04 {
+    width: 30vw;
+    background-color: transparent;
+    position: relative; 
+    top: 3vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper04 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper04 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper04 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapper05 {
+    width: 30vw;
+    background-color: transparent;
+    position: relative; 
+    top: 4vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+  #iconwrapper05 p1{
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper05 p2{
+    transition: 0.5s;
+    padding: 0vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+  #iconwrapper05 p2:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+
+
+#iconwrapperresume {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: 5vw;
+    left: 11.2vw;
+    margin: 0 ;
+  }
+  
+#iconwrapperresume p{
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+#iconwrapperresume p:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+#iconwrapperabout {
+    width: 20vw;
+    background-color: transparent;
+    position: relative; 
+    top: -1.65vw;
+    left: 24.2vw;
+    margin: 0 ;
+  }
+  
+#iconwrapperabout p{
+    padding: 0vw;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+  }
+
+#iconwrapperabout p:hover{
+    transition: 0.5s;
+    letter-spacing: 0.5vw;
+    color: red;
+}
+
+
+
