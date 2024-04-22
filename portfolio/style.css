@@ -67,7 +67,7 @@ body{
 #iconwrappername p:hover{
     letter-spacing: 1vw;
     transition: 0.5s;
-    color: red;
+    color: black;
 }
 
 /* #iconwrappername p1{
