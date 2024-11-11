@@ -61,7 +61,7 @@ canvas {
 }
 
 #glob1{
-  transition: 4s;
+  transition: 3.5s;
   position: absolute;
   top: -25px;
   left: 45px;
@@ -72,7 +72,7 @@ canvas {
 }
 
 #glob2{
-  transition: 1s;
+  transition: 2s;
   position: absolute;
   top: -8px;
   left: 55px;
@@ -83,7 +83,7 @@ canvas {
 }
 
 #glob3{
-  transition: 2s;
+  transition: 3s;
   position: absolute;
   top: -17px;
   left: 72px;
@@ -93,11 +93,40 @@ canvas {
   border-radius: 50%
 }
 
-#lavalampglass:hover ~ #globwrapper > #glob1, #lavalampglass:hover ~ #globwrapper > #glob2,
+/* #lavalampglass:hover ~ #globwrapper > #glob1, #lavalampglass:hover ~ #globwrapper > #glob2,
 #lavalampglass:hover ~ #globwrapper > #glob3{
   transition: 2s;
   top: 206px;
-}
+} */
+
+#lavalampglass:hover ~ #globwrapper > #glob1 {
+    transition: 2s;
+    width: 200px;
+    height: 200px;
+    top: 170px;
+    left: -20px
+  }
+   
+  #lavalampglass:hover ~ #globwrapper > #glob2 {
+    transition: 2s;
+    width: 40px;
+    height: 40px;
+    top: 206px;
+  }
+
+  #lavalampglass:hover ~ #globwrapper > #glob3{
+    transition: 2s;
+    width: 140px;
+    height: 140px;
+    top: 190px;
+  }
+
+
+
+
+
+
+
 
 #lavalampbase1{
   background-color: transparent;
