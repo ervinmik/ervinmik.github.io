@@ -25,7 +25,148 @@ canvas {
 /*   margin: auto; */
 }
 
+
+
+
+
+
 #lavalamptip{
+    background-color: transparent;
+      border-bottom: 80px solid lightgrey;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      height: 20px;
+      width: 40px;
+    margin-left: 155px;
+  }
+  
+  #lavalampglass{
+    background-color: transparent;
+      border-bottom: 250px solid blue;
+      border-left: 55px solid transparent;
+      border-right: 55px solid transparent;
+      height: 0px;
+      width: 80px;
+    margin-left: 100.5px;
+    overflow: hidden;
+  }
+  
+  #globwrapper {
+      pointer-events: none;
+    background-color: transparent;
+  
+    height: 250px;
+    width: 192px;
+    top: 100px;
+    left: 100px;
+    clip-path: polygon(28.5% 0, 70.6% 0, 99.5% 100%, 0% 100%);
+  
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  #glob1{
+    transition: 3.5s;
+    position: absolute;
+    top: -25px;
+    left: 45px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%
+  }
+  
+  #glob2{
+    transition: 2s;
+    position: absolute;
+    top: -8px;
+    left: 55px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%
+  }
+  
+  #glob3{
+    transition: 3s;
+    position: absolute;
+    top: -17px;
+    left: 72px;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%
+  }
+  
+  #lavalampglass:hover ~ #globwrapper > #glob1 {
+    transition: 2s;
+    width: 200px;
+    height: 200px;
+    top: 170px;
+    left: -20px
+  }
+   
+  #lavalampglass:hover ~ #globwrapper > #glob2 {
+    transition: 2s;
+    width: 40px;
+    height: 40px;
+    top: 206px;
+  }
+
+  #lavalampglass:hover ~ #globwrapper > #glob3{
+    transition: 2s;
+    width: 140px;
+    height: 140px;
+    top: 190px;
+  }
+
+
+  #lavalampbase1{
+    background-color: transparent;
+      border-bottom: 100px solid #969595;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 300px;
+      width: 140px;
+    margin-top: 0px;
+    margin-left: 100px;
+    transform: rotate(180deg);
+  }
+  
+  #lavalampbase2{
+    background-color: transparent;
+      border-bottom: 140px solid #b0b0b0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0px;
+      width: 140px;
+    margin-top: -300px;
+    margin-left: 100px;
+  }
+
+
+
+  #iconwrapper1{
+    width: 100vw;
+    
+  /*   background-color: hotpink; */
+    position: relative;
+  /*   display: flex; */
+  }
+  #iconwrapper2{
+  /*   background-color: hotpink; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  /*   margin: auto; */
+  }
+
+
+
+
+
+/* #lavalamptip{
   background-color: transparent;
 	border-bottom: 80px solid lightgrey;
 	border-left: 20px solid transparent;
@@ -149,4 +290,4 @@ canvas {
 	width: 140px;
   margin-top: -300px;
   margin-left: 100px;
-}
+} */
